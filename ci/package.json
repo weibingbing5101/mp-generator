@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "miniprogram-ci": "^1.0.94"
+  },
+  "devDependencies": {
+    "handlebars": "^4.7.7",
+    "install": "^0.13.0"
+  }
+}

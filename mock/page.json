@@ -1,0 +1,120 @@
+{
+  "code": "0000",
+  "msg": "成功",
+  "data": [
+  {
+    "id": "1",
+    "name": "index",
+    "desc": "首页",
+    "floors": [
+    {
+      "name": "costomswiper",
+      "desc": "轮播图组件",
+      "priviewImg": "",
+      "getCfgUrl": "/floors/getCfg",
+      "attrCfg": [
+      {
+        "mpHtmlKey": "indicator-dots",
+        "mpDataKey": "indicatorDots",
+        "label": "面板指示点",
+        "placeholder": "是否显示面板指示点",
+        "value": "false",
+        "required": false,
+        "formTagType": "Select-S",
+        "options": [
+        {
+          "label": "是",
+          "value": "true"
+        },
+        {
+          "label": "否",
+          "value": "false"
+        }]
+      },
+      {
+        "mpHtmlKey": "interval",
+        "mpDataKey": "interval",
+        "label": "自动切换间隔",
+        "placeholder": "自动切换时间间隔",
+        "value": 1000,
+        "required": false,
+        "formTagType": "InputNumber",
+        "options": []
+      },
+      {
+        "mpHtmlKey": "query-swipper-list-api",
+        "mpDataKey": "querySwipperListApi",
+        "label": "轮播图接口url",
+        "placeholder": "获取轮播图列表的接口地址",
+        "value": "/swippers/querySwipperList_index_1",
+        "required": false,
+        "formTagType": "Input",
+        "options": []
+      }],
+      "id": "1",
+      "pageId": "1"
+    },
+    {
+      "name": "costomswiper",
+      "desc": "轮播图组件",
+      "priviewImg": "",
+      "getCfgUrl": "/floors/getCfg",
+      "attrCfg": [
+      {
+        "mpHtmlKey": "indicator-dots",
+        "mpDataKey": "indicatorDots",
+        "label": "面板指示点",
+        "placeholder": "是否显示面板指示点",
+        "value": "false",
+        "required": false,
+        "formTagType": "Select-S",
+        "options": [
+        {
+          "label": "是",
+          "value": "true"
+        },
+        {
+          "label": "否",
+          "value": "false"
+        }]
+      },
+      {
+        "mpHtmlKey": "interval",
+        "mpDataKey": "interval",
+        "label": "自动切换间隔",
+        "placeholder": "自动切换时间间隔",
+        "value": 5000,
+        "required": false,
+        "formTagType": "InputNumber",
+        "options": []
+      },
+      {
+        "mpHtmlKey": "query-swipper-list-api",
+        "mpDataKey": "querySwipperListApi",
+        "label": "轮播图接口url",
+        "placeholder": "获取轮播图列表的接口地址",
+        "value": "/swippers/querySwipperList_index_2",
+        "required": false,
+        "formTagType": "Input",
+        "options": []
+      }],
+      "_index": 1,
+      "_rowKey": 3,
+      "index": 1,
+      "id": "2",
+      "pageId": "1"
+    }]
+  },
+  {
+    "id": "2",
+    "name": "a",
+    "desc": "a",
+    "floors": []
+  },
+  {
+    "id": "3",
+    "name": "mini",
+    "desc": "我的页面",
+    "floors": []
+  }]
+}

@@ -1,0 +1,12 @@
+<!-- {{desc}} -->
+<view class="{{name}}">
+  {{#each floors}}
+  <!-- {{desc}} -->
+  <{{name}} 
+  	getCfgUrl="{{getCfgUrl}}"
+    pageId="{{pageId}}"
+    floorsId="{{id}}"
+  >
+  </{{name}}>
+  {{/each}}
+</view>

@@ -1,0 +1,13 @@
+<!-- {{desc}} -->
+<view class="{{name}}">
+  {{#each floors}}
+  <!-- {{desc}} -->
+  <{{name}} 
+  	cfg="{{dateKey2HtmlKey mpDataCfgKey}}"
+  	{{#each attrCfg}}
+  	{{mpHtmlKey}}="{{dateKey2HtmlKey mpDataKey}}"
+  	{{/each}}
+  >
+  </{{name}}>
+  {{/each}}
+</view>

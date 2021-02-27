@@ -1,0 +1,15 @@
+<!--components/swiper/swiper.wxml-->
+<view class="my-swiper" wx:if="{{ swipperList && swipperList.length }}">
+  <swiper bindchange="swiperChange" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{swipperList}}" wx:key="*this">
+      <swiper-item bindtap="toDetail" data-url="{{ item.bannerRefValue }}" data-item="{{ item }}">
+        <view class="swiper-item">
+          <image class="image" src="{{item.bannerCoverDomain + item.bannerCover }}"></image>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="swiper-dots">
+    <view class="{{ (currItem.current === index)  ? 'dots-item active' : 'dots-item' }}" wx:for="{{swipperList}}" wx:key="bannerCover"></view>
+  </view>
+</view>

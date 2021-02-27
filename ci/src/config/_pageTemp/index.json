@@ -1,0 +1,12 @@
+{
+  "usingComponents":{
+  	{{#each floors}}
+  	{{#if @last}}
+  	"{{name}}":"../../components/{{name}}/{{name}}"
+  	{{else}}
+  	"{{name}}":"../../components/{{name}}/{{name}}",
+  	{{/if}}
+  	{{/each}}
+  },
+  "navigationStyle": "custom"
+}

@@ -1,0 +1,17 @@
+<!-- 首页 -->
+<view class="index">
+  <!-- 轮播图组件 -->
+  <costomswiper 
+  	getCfgUrl="/floors/getCfg"
+    pageId="1"
+    floorsId="1"
+  >
+  </costomswiper>
+  <!-- 轮播图组件 -->
+  <costomswiper 
+  	getCfgUrl="/floors/getCfg"
+    pageId="1"
+    floorsId="2"
+  >
+  </costomswiper>
+</view>

@@ -1,0 +1,48 @@
+/* components/swiper/swiper.wxss */
+
+.my-swiper {
+  width: 702rpx;
+  height: 136rpx;
+  margin: 0 auto;
+  padding-bottom: 16rpx;
+  margin-top: 24rpx;
+  position: relative;
+  border-top-left-radius: 16rpx;
+  border-top-right-radius: 16rpx;
+}
+
+swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-item {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 4px 20px 0px rgba(225, 225, 229, 0.2);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-dots {
+  position: absolute;
+  right: 0rpx;
+  bottom: 0rpx;
+  width: 42rpx;
+  height: 6rpx;
+  display: flex;
+  background-color: #E6E6E6;
+  border-radius: 6rpx;
+}
+
+.dots-item {
+  flex: 1;
+}
+
+.active {
+  background-color: #16C4AE;
+  border-radius: 6rpx;
+}
