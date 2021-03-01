@@ -5,14 +5,18 @@ const path = require('path')
 ;
 (async () => {
   console.log(path.resolve('../../mp-temp/'))
-  // console.log(process.cwd() + '/mp-temp');
-
 
   const project = new ci.Project({
     appid: 'wxb4ffd5da18ee13f7',
     type: 'miniProgram',
-    projectPath: path.resolve('../../mp-temp/'),
-    privateKeyPath: process.cwd() + '/private.wxb4ffd5da18ee13f7.key',
+    // node ./src/preview.wx.js 使用下两行代码
+    // privateKeyPath: process.cwd() + '/private.wxb4ffd5da18ee13f7.key',
+    // projectPath: path.resolve('../../mp-temp/'),
+
+    // 后台管理一键生成 体验小程序使用如下代码
+    privateKeyPath: path.resolve('../ci/private.wxb4ffd5da18ee13f7.key'),
+    projectPath: path.resolve('../mp-temp/'),
+
     ignores: ['node_modules/**/*'],
   })
 
@@ -21,7 +25,7 @@ const path = require('path')
     project,
     desc: 'hello', // 此备注将显示在“小程序助手”开发版列表中
     setting: {
-      es6: true,
+      // es6: true,
     },
     qrcodeFormat: 'image',
     qrcodeOutputDest: './destination.jpg',

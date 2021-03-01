@@ -9,6 +9,7 @@ var usersRouter = require('./routes/users');
 
 var pagesRouter = require('./routes/pages');
 var floorsRouter = require('./routes/floors');
+var ciRouter = require('./routes/ci');
 
 
 // 业务
@@ -45,6 +46,9 @@ app.use('/users', usersRouter);
 app.use('/pages', pagesRouter);
 app.use('/floors', floorsRouter);
 app.use('/swippers', swippersRouter);
+
+app.use('/ci', ciRouter);
+
 
 
 // catch 404 and forward to error handler

@@ -1,6 +1,3 @@
 {
-  "usingComponents":{
-  	"costomswiper":"../../components/costomswiper/costomswiper"
-  },
-  "navigationStyle": "custom"
+  "usingComponents": {}
 }

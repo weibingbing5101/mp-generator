@@ -1,6 +1,2 @@
-<!-- 我的 -->
-<view class="mine">
-  <!-- 轮播图组件 -->
-  <costomswiper cfg="{{costomswiper}}">
-  </costomswiper>
-</view>
+<!--pages/mine/mine.wxml-->
+<text>pages/mine/mine.wxml</text>
