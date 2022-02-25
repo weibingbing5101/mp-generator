@@ -1,4 +1,4 @@
-# mp-generator
+# 小程序生成器 - 主要功能
 
 # mp-generator
 
